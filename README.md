@@ -249,7 +249,7 @@ Add an id of a group you are in
 # MISC
 
 ### fastvariable's Flag List (UFFL)
-[Link to Repo](https://github.com/bloxstrapper/UFFL)
+[Link to Repository](https://github.com/bloxstrapper/UFFL)
 
 ### Sky's Flag Collection
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1139962301991104582)
