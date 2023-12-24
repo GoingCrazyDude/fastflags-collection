@@ -3,7 +3,14 @@
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1150655466830041128)
 ```json
 {
-  "FFlagDisablePostFx": true
+    "FFlagDisablePostFx": true
+}
+```
+### Override FRM Quality Level
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1184157587562823780)
+```json
+{
+    "DFIntDebugFRMQualityLevelOverride": 1
 }
 ```
 
@@ -130,6 +137,30 @@ Values over 4 will cause bugs
 
 # UI (User Interface)
 
+### Disables Selfview
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1183081644614226012)
+```json
+{
+    "FFlagCoreGuiTypeSelfViewPresent": false
+}
+```
+
+### Multi-Colored UI/Viewports
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1183833667945103421)
+```json
+{
+    "FFlagDebugDisplayUnthemedInstances": true
+}
+```
+
+### Disable "Output device" UI from Escape Menu
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1184771500558012416)
+```json
+{
+    "FFlagEnableAudioOutputDevice": false
+}
+```
+
 ### Remove Home Button
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1171224254352732201)
 ```json
@@ -142,7 +173,7 @@ Values over 4 will cause bugs
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1172321602214559754)
 ```json
 {
-  "FFlagLuaAppSystemBar": false
+    "FFlagLuaAppSystemBar": false
 }
 ```
 
@@ -237,15 +268,6 @@ Add an id of a group you are in
 }
 ```
 
-# TUTORIALS
-
-### Make Your Own Custom Roblox Textures
-[Link to Original Post](https://discord.com/channels/1099468797410283540/1178672676416536657)
-[Link to Tutorial](https://discord.com/channels/1099468797410283540/1178672676416536657)
-
-### Custom Weapon Skins In Phantom Forces
-[Link to Original Post](https://discord.com/channels/1099468797410283540/1179092910252240966)
-
 # MISC
 
 ### Sky's Flag Collection
@@ -260,3 +282,12 @@ Add an id of a group you are in
     "FStringVoiceBetaBadgeLearnMoreLink": "https://example.com"
 }
 ```
+
+# TUTORIALS
+
+### Make Your Own Custom Roblox Textures
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1178672676416536657)
+[Link to Tutorial](https://discord.com/channels/1099468797410283540/1178672676416536657)
+
+### Custom Weapon Skins In Phantom Forces
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1179092910252240966)
