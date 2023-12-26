@@ -283,6 +283,14 @@ Add an id of a group you are in
 }
 ```
 
+### Infinite Zoom Out
+[Link to Original Post](https://discord.com/channels/1099468797410283540/1145562953739943936)
+```json
+{
+    "FIntCameraMaxZoomDistance": 99999
+}
+```
+
 # TUTORIALS
 
 ### Make Your Own Custom Roblox Textures
