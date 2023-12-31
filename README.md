@@ -41,7 +41,7 @@ For Metal(Only for MacOS):
 ```
 
 ### Better Light Attenuation
-> **Warning**
+> [!WARNING]
 >
 > May cause lighting artifacts.<br>
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1165003069814226964)
