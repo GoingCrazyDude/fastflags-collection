@@ -22,6 +22,9 @@ For D3D11FL10:
 }
 ```
 For Vulkan:
+> [!CAUTION]
+>
+> Performance may vary (Worse on nvidia cards). Expect visual bugs and crashes.
 ```json
 {
     "FFlagDebugGraphicsPreferVulkan": true
@@ -33,14 +36,21 @@ For OpenGL:
     "FFlagDebugGraphicsPreferOpenGL": true
 }
 ```
-For Metal(Only for MacOS):
+For Metal:
+> [!IMPORTANT]
+>
+>Only for MacOS.
 ```json
 {
     "FFlagDebugGraphicsPreferMetal": true
 }
 ```
 
-### Better Light Attenuation [BUGGY: MAY CAUSE VISUAL ARTIFACTS]
+### Better Light Attenuation
+> [!WARNING]
+>
+> May cause lighting artifacts.
+
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1165003069814226964)
 ```json
 {
@@ -49,6 +59,7 @@ For Metal(Only for MacOS):
 ```
 
 ### Disable Baked Shadows
+
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1173308420133232750)
 ```json
 {
@@ -69,7 +80,9 @@ For Metal(Only for MacOS):
 
 ### Force Texture Quality
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1150312397274357871)<br>
-Set this to whichever value you want
+> [!NOTE]  
+>
+> Set to any value from 0 to 3.
 ```json
 {
     "DFFlagTextureQualityOverrideEnabled": true,
@@ -77,9 +90,11 @@ Set this to whichever value you want
 }
 ```
 
-### Enable MSAA [BUGGY: MAY CAUSE VIEWPORTS/3D MODELS TO NOT LOAD]
+### Enable MSAA
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1145231575173316608)
-Values over 4 will cause bugs
+> [!CAUTION]
+>
+> Values over 4 will cause viewports (3D Models) to be invisible.
 ```json
 {
     "FIntDebugForceMSAASamples": 0
@@ -90,8 +105,8 @@ Values over 4 will cause bugs
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1150375711631212604)
 ```json
 {
-    "FStringPartTexturePackTable2022": "{\u0022foil\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022asphalt\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022basalt\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022brick\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022cobblestone\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022concrete\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022crackedlava\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022diamondplate\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022fabric\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022glacier\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022glass\u0022:{\u0022ids\u0022:[\"rbxassetid://9873284556\",\"rbxassetid://9438453972\"],\u0022color\u0022:[55, 55, 55, 255]},\u0022granite\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022grass\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022ground\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022ice\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022leafygrass\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022limestone\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022marble\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022metal\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022mud\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022pavement\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022pebble\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022plastic\u0022:{\u0022ids\u0022:[\u0022\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022rock\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022corrodedmetal\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022salt\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022sand\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022sandstone\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022slate\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022snow\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022wood\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022woodplanks\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]}}",
-    "FStringPartTexturePackTablePre2022": "{\u0022foil\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022brick\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022cobblestone\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022concrete\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022diamondplate\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022fabric\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022glass\u0022:{\u0022ids\u0022:[\"rbxassetid://7547304948\",\"rbxassetid://7546645118\"],\u0022color\u0022:[55, 55, 55, 255]},\u0022granite\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022grass\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022ice\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022marble\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022metal\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022pebble\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022corrodedmetal\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022sand\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022slate\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022wood\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022woodplanks\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022asphalt\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022basalt\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022crackedlava\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022glacier\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022ground\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022leafygrass\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022limestone\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022mud\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022pavement\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022rock\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022salt\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022sandstone\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]},\u0022snow\u0022:{\u0022ids\u0022:[\u0022rbxassetid://0\u0022,\u0022rbxassetid://0\u0022],\u0022color\u0022:[55, 55, 55, 255]}}"
+    "FStringPartTexturePackTable2022": "{foil:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},asphalt:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},basalt:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},brick:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},cobblestone:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},concrete:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},crackedlava:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},diamondplate:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},fabric:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},glacier:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},glass:{ids:[\"rbxassetid://9873284556\",\"rbxassetid://9438453972\"],color:[55, 55, 55, 255]},granite:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},grass:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},ground:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},ice:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},leafygrass:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},limestone:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},marble:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},metal:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},mud:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},pavement:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},pebble:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},plastic:{ids:[,rbxassetid://0],color:[55, 55, 55, 255]},rock:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},corrodedmetal:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},salt:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},sand:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},sandstone:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},slate:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},snow:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},wood:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},woodplanks:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]}}",
+    "FStringPartTexturePackTablePre2022": "{foil:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},brick:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},cobblestone:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},concrete:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},diamondplate:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},fabric:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},glass:{ids:[\"rbxassetid://7547304948\",\"rbxassetid://7546645118\"],color:[55, 55, 55, 255]},granite:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},grass:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},ice:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},marble:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},metal:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},pebble:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},corrodedmetal:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},sand:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},slate:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},wood:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},woodplanks:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},asphalt:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},basalt:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},crackedlava:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},glacier:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},ground:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},leafygrass:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},limestone:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},mud:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},pavement:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},rock:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},salt:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},sandstone:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]},snow:{ids:[rbxassetid://0,rbxassetid://0],color:[55, 55, 55, 255]}}"
 }
 ```
 
@@ -163,7 +178,9 @@ Values over 4 will cause bugs
 
 ### Hide GUI
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1149975417818722314)
-Add an id of a group you are in
+> [!NOTE]  
+>
+> Set to a id of a group you are in.
 ```json
 {
     "DFIntCanHideGuiGroupId": 0
@@ -186,7 +203,10 @@ Add an id of a group you are in
 }
 ```
 
-### Chrome UI [BUGGY: MAY CAUSE GAME TO FREEZE WHILE LOADING]
+### Chrome UI
+> [!CAUTION]
+>
+> May cause the game to not load in certain games.
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1156809517883985960)
 ```json
 {
@@ -223,7 +243,10 @@ Add an id of a group you are in
 }
 ```
 
-### Disable Telemetry [No More Spying 🕵️]
+### Disable Telemetry
+> [!NOTE]  
+>
+> Does not disable all telemetry.
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1155133604389728396)
 ```json
 {
