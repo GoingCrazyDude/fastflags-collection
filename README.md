@@ -46,11 +46,7 @@ For Metal:
 }
 ```
 
-### Better Light Attenuation
-> [!WARNING]
->
-> May cause lighting artifacts.
-
+### Better Light Attenuation [BUGGY: MAY CAUSE VISUAL ARTIFACTS]
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1165003069814226964)
 ```json
 {
