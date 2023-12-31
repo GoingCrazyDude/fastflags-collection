@@ -9,13 +9,13 @@
 
 ### Change Rendering Mode
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1173220043266457660)
-For D3D11:
+For D3D11 (DirectX 11):
 ```json
 {
     "FFlagDebugGraphicsPreferD3D11": true
 }
 ```
-For D3D11FL10:
+For D3D11FL10 (DirectX 11 but with the feature list of DirectX 10):
 ```json
 {
     "FFlagDebugGraphicsPreferD3D11FL10": true
@@ -46,7 +46,15 @@ For Metal:
 }
 ```
 
-### Better Light Attenuation [BUGGY: MAY CAUSE VISUAL ARTIFACTS]
+### Better Light Attenuation
+> [!WARNING]
+>
+<<<<<<< HEAD
+> May cause lighting artifacts.
+
+=======
+> May cause lighting artifacts.<br>
+>>>>>>> 55699027a0887633eef1fab410572c2d3a5fb225
 [Link to Original Post](https://discord.com/channels/1099468797410283540/1165003069814226964)
 ```json
 {
