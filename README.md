@@ -1,3 +1,7 @@
+# ROBLOX IS KILLING LOCAL CLIENTSETTINGS LOADING
+# NO MORE CLOSET CHEATERS
+![drake](https://github.com/pizzaboxer/bloxstrap/assets/67791946/303dfde5-1968-435e-8660-249e8b6001c6)
+
 # Graphical Settings
 
 ### Disable PostFX
