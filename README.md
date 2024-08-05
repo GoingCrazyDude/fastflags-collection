@@ -47,21 +47,21 @@
 
 # Rendering & Graphics
 
-### Enables Voxel Lighting
+### Force Voxel Lighting
 ```json
 {
 	"DFFlagDebugRenderForceTechnologyVoxel": true
 }
 ```
 
-### Enables ShadowMap Lighting
+### Force ShadowMap Lighting
 ```json
 {
 	"FFlagDebugForceFutureIsBrightPhase2": true
 }
 ```
 
-### Enables Future Lighting
+### Force Future Lighting
 ```json
 {
 	"FFlagDebugForceFutureIsBrightPhase3": true
@@ -124,10 +124,10 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1146963091775553536)
 ```json
 {
-	"DFIntCSGLevelOfDetailSwitchingDistance":1,
-	"DFIntCSGLevelOfDetailSwitchingDistanceL12":2,
-	"DFIntCSGLevelOfDetailSwitchingDistanceL23":3,
-	"DFIntCSGLevelOfDetailSwitchingDistanceL34":4
+	"DFIntCSGLevelOfDetailSwitchingDistance": 1,
+	"DFIntCSGLevelOfDetailSwitchingDistanceL12": 2,
+	"DFIntCSGLevelOfDetailSwitchingDistanceL23": 3,
+	"DFIntCSGLevelOfDetailSwitchingDistanceL34": 4
 }
 ```
 
