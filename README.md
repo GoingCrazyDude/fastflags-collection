@@ -337,7 +337,7 @@
 > Does not disable all telemetry.
 ```json
 {
-    "FFlagDebugDisableTelemetryEphemeralCounter": true,
+	"FFlagDebugDisableTelemetryEphemeralCounter": true,
 	"FFlagDebugDisableTelemetryEphemeralStat": true,
 	"FFlagDebugDisableTelemetryEventIngest": true,
 	"FFlagDebugDisableTelemetryPoint": true,
