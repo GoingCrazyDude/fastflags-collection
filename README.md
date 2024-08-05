@@ -10,14 +10,14 @@
 ### Prefer Direct3D 11
 ```json
 {
-    "FFlagDebugGraphicsPreferD3D11": true
+	"FFlagDebugGraphicsPreferD3D11": true
 }
 ```
 
 ### Prefer the Direct3D 10 Features List for Direct3D 11
 ```json
 {
-    "FFlagDebugGraphicsPreferD3D11FL10": true
+	"FFlagDebugGraphicsPreferD3D11FL10": true
 }
 ```
 
@@ -26,14 +26,14 @@
 > Performance may vary (Worse on nvidia cards). Expect visual bugs and crashes.
 ```json
 {
-    "FFlagDebugGraphicsPreferVulkan": true
+	"FFlagDebugGraphicsPreferVulkan": true
 }
 ```
 
 ### Prefer OpenGL
 ```json
 {
-    "FFlagDebugGraphicsPreferOpenGL": true
+	"FFlagDebugGraphicsPreferOpenGL": true
 }
 ```
 ### Prefer Metal
@@ -41,7 +41,7 @@
 > Only for MacOS.
 ```json
 {
-    "FFlagDebugGraphicsPreferMetal": true
+	"FFlagDebugGraphicsPreferMetal": true
 }
 ```
 
@@ -50,21 +50,21 @@
 ### Enables Voxel Lighting
 ```json
 {
-    "DFFlagDebugRenderForceTechnologyVoxel": true
+	"DFFlagDebugRenderForceTechnologyVoxel": true
 }
 ```
 
 ### Enables ShadowMap Lighting
 ```json
 {
-    "FFlagDebugForceFutureIsBrightPhase2": true
+	"FFlagDebugForceFutureIsBrightPhase2": true
 }
 ```
 
 ### Enables Future Lighting
 ```json
 {
-    "FFlagDebugForceFutureIsBrightPhase3": true
+	"FFlagDebugForceFutureIsBrightPhase3": true
 }
 ```
 
@@ -74,7 +74,7 @@
 > Will not turn off player or mesh shadows.
 ```json
 {
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": 2147483647
+	"DFIntCullFactorPixelThresholdShadowMapHighQuality": 2147483647
 }
 ```
 
@@ -84,7 +84,7 @@
 > May cause lighting artifacts.
 ```json
 {
-    "FFlagNewLightAttenuation": true
+	"FFlagNewLightAttenuation": true
 }
 ```
 
@@ -92,7 +92,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1147409993302282240)
 ```json
 {
-    "FIntRenderShadowIntensity": 0
+	"FIntRenderShadowIntensity": 0
 }
 ```
 
@@ -100,7 +100,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1150655466830041128)
 ```json
 {
-    "FFlagDisablePostFx": true
+	"FFlagDisablePostFx": true
 }
 ```
 
@@ -108,15 +108,15 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1173308420133232750)
 ```json
 {
-    "DFFlagDebugPauseVoxelizer": true
+	"DFFlagDebugPauseVoxelizer": true
 }
 ```
 
 ### Uncap FPS
 ```json
 {
-    "DFIntTaskSchedulerTargetFps": 9999,
-    "FFlagTaskSchedulerLimitTargetFpsTo2402": false
+	"DFIntTaskSchedulerTargetFps": 9999,
+	"FFlagTaskSchedulerLimitTargetFpsTo2402": false
 }
 ```
 
@@ -124,10 +124,10 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1146963091775553536)
 ```json
 {
-    "DFIntCSGLevelOfDetailSwitchingDistance":1,
-    "DFIntCSGLevelOfDetailSwitchingDistanceL12":2,
-    "DFIntCSGLevelOfDetailSwitchingDistanceL23":3,
-    "DFIntCSGLevelOfDetailSwitchingDistanceL34":4
+	"DFIntCSGLevelOfDetailSwitchingDistance":1,
+	"DFIntCSGLevelOfDetailSwitchingDistanceL12":2,
+	"DFIntCSGLevelOfDetailSwitchingDistanceL23":3,
+	"DFIntCSGLevelOfDetailSwitchingDistanceL34":4
 }
 ```
 
@@ -135,7 +135,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1207722310195486720)
 ```json
 {
-    "DFIntTextureCompositorActiveJobs": 0
+	"DFIntTextureCompositorActiveJobs": 0
 }
 ```
 
@@ -145,8 +145,8 @@
 > The max visibly-changing value is 3.
 ```json
 {
-    "DFFlagTextureQualityOverrideEnabled": true,
-    "DFIntTextureQualityOverride": 3
+	"DFFlagTextureQualityOverrideEnabled": true,
+	"DFIntTextureQualityOverride": 3
 }
 ```
 
@@ -156,7 +156,7 @@
 > Forces graphics quality to the set level. Rendering Distance will still be controlled by the graphics quality slider.
 ```json
 {
-    "DFIntDebugFRMQualityLevelOverride": 1
+	"DFIntDebugFRMQualityLevelOverride": 1
 }
 ```
 
@@ -166,7 +166,7 @@
 > Do **_NOT_** set a value above 4 (This will cause viewports (3D Models) to become invisible.)
 ```json
 {
-    "FIntDebugForceMSAASamples": 1
+	"FIntDebugForceMSAASamples": 1
 }
 ```
 
@@ -174,7 +174,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1194889014981967932)
 ```json
 {
-    "FIntTerrainArraySliceSize": 0
+	"FIntTerrainArraySliceSize": 0
 }
 ```
 
@@ -182,15 +182,15 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1152409274933317712)
 ```json
 {
-    "FIntRenderShadowmapBias": 10
+	"FIntRenderShadowmapBias": 10
 }
 ```
 
 ### Remove FRM Grass
 ```json
 {
-    "FIntFRMMaxGrassDistance": 0,
-    "FIntFRMMinGrassDistance": 0
+	"FIntFRMMaxGrassDistance": 0,
+	"FIntFRMMinGrassDistance": 0
 }
 ```
 
@@ -200,7 +200,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1183833667945103421)
 ```json
 {
-    "FFlagDebugDisplayUnthemedInstances": true
+	"FFlagDebugDisplayUnthemedInstances": true
 }
 ```
 
@@ -208,9 +208,9 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1204420123260092436)
 ```json
 {
-    "FFlagEnableReportAbuseMenuRoactABTest2": false,
-    "FFlagEnableReportAbuseMenuRoact2": false,
-    "FFlagEnableReportAbuseMenuLayerOnV3": false
+	"FFlagEnableReportAbuseMenuRoactABTest2": false,
+	"FFlagEnableReportAbuseMenuRoact2": false,
+	"FFlagEnableReportAbuseMenuLayerOnV3": false
 }
 ```
 
@@ -218,7 +218,7 @@
 [Link To original Post](https://discord.com/channels/1099468797410283540/1183081644614226012)
 ```json
 {
-    "FFlagCoreGuiTypeSelfViewPresent": false
+	"FFlagCoreGuiTypeSelfViewPresent": false
 }
 ```
 
@@ -226,7 +226,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1193962531128102955)
 ```json
 {
-    "FFlagDebugTextBoxServiceShowOverlay": true
+	"FFlagDebugTextBoxServiceShowOverlay": true
 }
 ```
 
@@ -236,7 +236,7 @@
 > This disables avatar chat.
 ```json
 {
-    "DFFlagFacialAnimationStreaming2": false
+	"DFFlagFacialAnimationStreaming2": false
 }
 ```
 
@@ -246,7 +246,7 @@
 > Set to a ID of a group you are in.
 ```json
 {
-    "DFIntCanHideGuiGroupId": 0
+	"DFIntCanHideGuiGroupId": 0
 }
 ```
 
@@ -254,7 +254,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1170204803025088512)
 ```json
 {
-    "FIntFontSizePadding": 1
+	"FIntFontSizePadding": 1
 }
 ```
 
@@ -264,7 +264,7 @@
 > For some reason the "Give Translation Feedback" button stays.
 ```json
 {
-    "FFlagChatTranslationSettingEnabled3": false
+	"FFlagChatTranslationSettingEnabled3": false
 }
 ```
 
@@ -273,7 +273,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1238434506818588682/1238434506818588682)
 ```json
 {
-    "FFlagAlwaysShowVRToggleV3": false
+	"FFlagAlwaysShowVRToggleV3": false
 }
 ```
 
@@ -281,7 +281,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1198606462226792468)
 ```json
 {
-    "FIntFullscreenTitleBarTriggerDelayMillis": -0
+	"FIntFullscreenTitleBarTriggerDelayMillis": -0
 }
 ```
 
@@ -291,7 +291,7 @@
 > May cause the game to not load in certain games.
 ```json
 {
-    "FFlagEnableInGameMenuChrome": true
+	"FFlagEnableInGameMenuChrome": true
 }
 ```
 
@@ -299,7 +299,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1177942263100362792)
 ```json
 {
-    "FFlagEnableChromePinnedChat": true
+	"FFlagEnableChromePinnedChat": true
 }
 ```
 
@@ -311,7 +311,7 @@
 > Default value is 1000 (in thousandths).
 ```json
 {
-    "DFIntVoiceChatVolumeThousandths": 1000
+	"DFIntVoiceChatVolumeThousandths": 1000
 }
 ```
 
@@ -319,7 +319,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1179502701118230529)
 ```json
 {
-    "FFlagAdServiceEnabled": false
+	"FFlagAdServiceEnabled": false
 }
 ```
 
@@ -327,7 +327,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1142226024281690132)
 ```json
 {
-    "FIntScrollWheelDeltaAmount": 0
+	"FIntScrollWheelDeltaAmount": 0
 }
 ```
 
@@ -356,6 +356,6 @@
 Example:
 ```json
 {
-    "DFIntTaskSchedulerTargetFps_PlaceFilter": "0;12345;246810"
+	"DFIntTaskSchedulerTargetFps_PlaceFilter": "0;12345;246810"
 }
 ```
