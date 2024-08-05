@@ -69,6 +69,7 @@
 ```
 
 ### Remove shadows (ShadowMap Lighting)
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1239502863206580245/1239502863206580245)
 > [!NOTE]
 > Will not turn off player or mesh shadows.
 ```json
@@ -222,7 +223,6 @@
 ```
 
 ### Chat Keylogger
-### Chat Keylogger
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1193962531128102955)
 ```json
 {
@@ -353,7 +353,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1239329199404355584/1239329199404355584)
 - You can make any flag, place (game) specific by putting "_PlaceFilter" at the end of the flag. In the Value section, the value for the flag then put a semi-colon (;) and the place ID after. (You can add more by putting another ID after another semi-colon (;))
 
-xample:
+Example:
 ```json
 {
     "DFIntTaskSchedulerTargetFps_PlaceFilter": "0;12345;246810"
