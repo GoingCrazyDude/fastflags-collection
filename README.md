@@ -281,7 +281,7 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1198606462226792468)
 ```json
 {
-	"FIntFullscreenTitleBarTriggerDelayMillis": -0
+	"FIntFullscreenTitleBarTriggerDelayMillis": 3600000
 }
 ```
 
