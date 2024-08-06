@@ -15,6 +15,8 @@
 ```
 
 ### Prefer Direct3D 10 (Feature List)
+> [!NTOTE]
+> This isn't actually Direct3D 10, it's Direct3D 11 with the Feature List of Direct3D 10.
 ```json
 {
 	"FFlagDebugGraphicsPreferD3D11FL10": true
