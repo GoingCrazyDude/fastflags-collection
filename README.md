@@ -8,6 +8,8 @@
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1173220043266457660)
 
 ### Prefer Direct3D 11
+> [!NOTE]
+> This is the Default Rendering Mode.
 ```json
 {
 	"FFlagDebugGraphicsPreferD3D11": true
