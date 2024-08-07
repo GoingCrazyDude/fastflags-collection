@@ -1,4 +1,4 @@
-> [!NOTE]
+> [!IMPORTANT]
 > Local FastFlags loading is being disabled. Expect FastFlags to become unmodifiable soon.
 
 ![drake](https://github.com/pizzaboxer/bloxstrap/assets/67791946/303dfde5-1968-435e-8660-249e8b6001c6) 
