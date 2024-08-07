@@ -154,7 +154,7 @@
 
 ### FRM Quality Level Override
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1184157587562823780)
-> [!NOTE]
+> [!IMPORTANT]
 > Forces graphics quality to the set level. Rendering Distance will still be controlled by the graphics quality slider.
 ```json
 {
@@ -165,7 +165,7 @@
 ### Enable MSAA
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1145231575173316608)
 > [!WARNING]
-> Do **_NOT_** set a value above 4 (This will cause viewports (3D Models) to become invisible.)
+> Do **_NOT_** set the value above 4 (This will cause viewports (3D Models) to become invisible.)
 ```json
 {
 	"FIntDebugForceMSAASamples": 1
