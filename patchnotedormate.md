@@ -1,6 +1,7 @@
-hello
-
+# Update Log | 8/14/24
+## General Gameplay
 ```diff
-- hello
-+ hello
++ Rewritten Combat Framework.
+  ([Information goes here])
 ```
+
