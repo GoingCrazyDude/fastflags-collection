@@ -1,7 +1,3 @@
-# ROBLOX IS KILLING LOCAL CLIENTSETTINGS LOADING
-# NO MORE CLOSET CHEATERS
-![drake](https://github.com/pizzaboxer/bloxstrap/assets/67791946/303dfde5-1968-435e-8660-249e8b6001c6)
-
 # Graphical Settings
 
 ### Disable PostFX
@@ -14,6 +10,7 @@
 
 ### Change Rendering Mode
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1173220043266457660)
+
 For D3D11 (DirectX 11):
 ```json
 {
@@ -77,10 +74,10 @@ For Metal:
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1146963091775553536)
 ```json
 {
-    "DFIntCSGLevelOfDetailSwitchingDistance":1,
-    "DFIntCSGLevelOfDetailSwitchingDistanceL12":2,
-    "DFIntCSGLevelOfDetailSwitchingDistanceL23":3,
-    "DFIntCSGLevelOfDetailSwitchingDistanceL34":4
+    "DFIntCSGLevelOfDetailSwitchingDistance":0,
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12":0,
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23":0,
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34":0
 }
 ```
 
@@ -89,6 +86,19 @@ For Metal:
 ```json
 {
     "DFIntTextureCompositorActiveJobs": 0
+}
+```
+
+### Skip MipMaps
+> [!NOTE]  
+>
+> Set to anything below 0 to basically delete all textures.
+
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1247944649822441634)
+
+```json
+{
+  "FIntDebugTextureManagerSkipMips": 0
 }
 ```
 
@@ -103,6 +113,15 @@ For Metal:
 {
     "DFFlagTextureQualityOverrideEnabled": true,
     "DFIntTextureQualityOverride": 3
+}
+```
+
+### Uncap FPS
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1245740082841780224)
+```json
+{
+    "DFIntTaskSchedulerTargetFps": 9999,
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": false
 }
 ```
 
@@ -140,29 +159,6 @@ For Metal:
 }
 ```
 
-### Minecraft Textures
-[Link To Original Post](https://discord.com/channels/1099468797410283540/1153901513295527956)
-```json
-{
-    "FStringPartTexturePackTablePre2022": "{\"foil\":{\"ids\":[\"rbxassetid://9873266399\",\"rbxassetid://9438410239\"],\"color\":[238,238,238,255]},\"asphalt\":{\"ids\":[\"rbxassetid://9867974823\",\"rbxassetid://9844502433\"],\"color\":[227,227,228,234]},\"basalt\":{\"ids\":[\"rbxassetid://11545552824\",\"rbxassetid://11545440462\"],\"color\":[160,160,158,238]},\"brick\":{\"ids\":[\"rbxassetid://9924770651\",\"rbxassetid://9924770538\"],\"color\":[229,214,205,227]},\"cobblestone\":{\"ids\":[\"rbxassetid://9919719550\",\"rbxassetid://9438453972\"],\"color\":[218,219,219,243]},\"concrete\":{\"ids\":[\"rbxassetid://9924775913\",\"rbxassetid://9924775826\"],\"color\":[225,225,224,255]},\"crackedlava\":{\"ids\":[\"rbxassetid://9920485426\",\"rbxassetid://9438453972\"],\"color\":[76,79,81,156]},\"diamondplate\":{\"ids\":[\"rbxassetid://10237721036\",\"rbxassetid://9438453972\"],\"color\":[210,210,210,255]},\"fabric\":{\"ids\":[\"rbxassetid://9920517963\",\"rbxassetid://9438453972\"],\"color\":[221,221,221,255]},\"glacier\":{\"ids\":[\"rbxassetid://9920518995\",\"rbxassetid://9438453972\"],\"color\":[225,229,229,243]},\"glass\":{\"ids\":[\"rbxassetid://9873284556\",\"rbxassetid://9438453972\"],\"color\":[254,254,254,7]},\"granite\":{\"ids\":[\"rbxassetid://9920550720\",\"rbxassetid://9438453972\"],\"color\":[210,206,200,255]},\"grass\":{\"ids\":[\"rbxassetid://11152995545\",\"rbxassetid://9267183930\"],\"color\":[196,196,189,241]},\"ground\":{\"ids\":[\"rbxassetid://11546360009\",\"rbxassetid://11545533676\"],\"color\":[165,165,160,240]},\"ice\":{\"ids\":[\"rbxassetid://9920556429\",\"rbxassetid://9438453972\"],\"color\":[235,239,241,248]},\"leafygrass\":{\"ids\":[\"rbxassetid://11152995545\",\"rbxassetid://9267183930\"],\"color\":[182,178,175,234]},\"limestone\":{\"ids\":[\"rbxassetid://9920561624\",\"rbxassetid://9438453972\"],\"color\":[250,248,243,250]},\"marble\":{\"ids\":[\"rbxassetid://9873292869\",\"rbxassetid://9438453972\"],\"color\":[181,183,193,249]},\"metal\":{\"ids\":[\"rbxassetid://11546526557\",\"rbxassetid://11546431794\"],\"color\":[226,226,226,255]},\"mud\":{\"ids\":[\"rbxassetid://9920578676\",\"rbxassetid://9438453972\"],\"color\":[193,192,193,252]},\"pavement\":{\"ids\":[\"rbxassetid://11546539560\",\"rbxassetid://11546440685\"],\"color\":[218,218,219,236]},\"pebble\":{\"ids\":[\"rbxassetid://9920581197\",\"rbxassetid://9438453972\"],\"color\":[204,203,201,234]},\"plastic\":{\"ids\":[\"\",\"rbxassetid://9868015012\"],\"color\":[255,255,255,255]},\"rock\":{\"ids\":[\"rbxassetid://11546570730\",\"rbxassetid://11546456858\"],\"color\":[211,211,210,248]},\"corrodedmetal\":{\"ids\":[\"rbxassetid://11545623165\",\"rbxassetid://11545476330\"],\"color\":[206,177,163,180]},\"salt\":{\"ids\":[\"rbxassetid://9920590478\",\"rbxassetid://9438453972\"],\"color\":[249,249,249,255]},\"sand\":{\"ids\":[\"rbxassetid://11546588111\",\"rbxassetid://11546468464\"],\"color\":[218,216,210,240]},\"sandstone\":{\"ids\":[\"rbxassetid://9920596353\",\"rbxassetid://9438453972\"],\"color\":[241,234,230,246]},\"slate\":{\"ids\":[\"rbxassetid://9867974823\",\"rbxassetid://9844502433\"],\"color\":[235,234,235,254]},\"snow\":{\"ids\":[\"rbxassetid://11536062048\",\"rbxassetid://11108916253\"],\"color\":[239,240,240,255]},\"wood\":{\"ids\":[\"rbxassetid://9867974813\",\"rbxassetid://9844454989\"],\"color\":[217,209,208,255]},\"woodplanks\":{\"ids\":[\"rbxassetid://9867974813\",\"rbxassetid://9844454989\"],\"color\":[207,208,206,254]}}"
-}
-```
-
-### Remove Textures
-> [!IMPORTANT]
->
-> Does not disable textures made by the game devs.
-
-[Link To Original Post](https://discord.com/channels/1099468797410283540/1145767763005165700)
-
-```json
-{
-    "FStringPartTexturePackTable2022": "{\"foil\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[238,238,238,255]},\"asphalt\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[227,227,228,234]},\"basalt\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[160,160,158,238]},\"brick\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[229,214,205,227]},\"cobblestone\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[218,219,219,243]},\"concrete\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[225,225,224,255]},\"crackedlava\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[76,79,81,156]},\"diamondplate\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[210,210,210,255]},\"fabric\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[221,221,221,255]},\"glacier\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[225,229,229,243]},\"glass\":{\"ids\":[\"rbxassetid://9873284556\",\"rbxassetid://9438453972\"],\"color\":[254,254,254,7]},\"granite\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[210,206,200,255]},\"grass\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[196,196,189,241]},\"ground\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[165,165,160,240]},\"ice\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[235,239,241,248]},\"leafygrass\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[182,178,175,234]},\"limestone\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[250,248,243,250]},\"marble\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[181,183,193,249]},\"metal\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[226,226,226,255]},\"mud\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[193,192,193,252]},\"pavement\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[218,218,219,236]},\"pebble\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[204,203,201,234]},\"plastic\":{\"ids\":[\"\",\"rbxassetid://0\"],\"color\":[255,255,255,255]},\"rock\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[211,211,210,248]},\"corrodedmetal\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[206,177,163,180]},\"salt\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[249,249,249,255]},\"sand\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[218,216,210,240]},\"sandstone\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[241,234,230,246]},\"slate\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[235,234,235,254]},\"snow\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[239,240,240,255]},\"wood\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[217,209,208,255]},\"woodplanks\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[207,208,206,254]}}",
-    "FStringPartTexturePackTablePre2022": "{\"foil\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[255,255,255,255]},\"brick\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[204,201,200,232]},\"cobblestone\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[212,200,187,250]},\"concrete\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[208,208,208,255]},\"diamondplate\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[170,170,170,255]},\"fabric\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[105,104,102,244]},\"glass\":{\"ids\":[\"rbxassetid://7547304948\",\"rbxassetid://7546645118\"],\"color\":[254,254,254,7]},\"granite\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[113,113,113,255]},\"grass\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[165,165,159,255]},\"ice\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[255,255,255,255]},\"marble\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[199,199,199,255]},\"metal\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[199,199,199,255]},\"pebble\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[208,208,208,255]},\"corrodedmetal\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[159,119,95,200]},\"sand\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[220,220,220,255]},\"slate\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[193,193,193,255]},\"wood\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[227,227,227,255]},\"woodplanks\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[212,209,203,255]},\"asphalt\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[123,123,123,234]},\"basalt\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[154,154,153,238]},\"crackedlava\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[74,78,80,156]},\"glacier\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[226,229,229,243]},\"ground\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[114,114,112,240]},\"leafygrass\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[121,117,113,234]},\"limestone\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[235,234,230,250]},\"mud\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[130,130,130,252]},\"pavement\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[142,142,144,236]},\"rock\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[154,154,154,248]},\"salt\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[220,220,221,255]},\"sandstone\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[174,171,169,246]},\"snow\":{\"ids\":[\"rbxassetid://0\",\"rbxassetid://0\"],\"color\":[218,218,218,255]}}",
-    "FStringTerrainMaterialTable2022": "",
-    "FStringTerrainMaterialTablePre2022": ""
-}
-```
 
 ### Remove Player Shadows
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1147409993302282240)
@@ -180,13 +176,47 @@ For Metal:
 }
 ```
 
-# UI (User Interface)
+# UI/UX (User Interface)
+
+### Rename Charts Tab Back To Discover
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1254997424116863048)
+```json
+{
+    "FFlagLuaAppChartsPageRenameIXP": false
+}
+```
 
 ### Rainbow UI / Viewport
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1183833667945103421)
 ```json
 {
     "FFlagDebugDisplayUnthemedInstances": true
+}
+```
+
+### Position Update UI/UX
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1267153647033384980)
+```json
+{
+    "FFlagAccessoryAdjustmentEnabled2":true,
+    "FFlagHumanoidDescriptionUseInstances5":true,
+    "FFlagHumanoidDescriptionFallback":true,
+    "FFlagEnableNonUAPAccessoryAdjustment":true,
+    "FFlagAXAccessoryAdjustment": true,
+    "FFlagAXAccessoryAdjustmentIXPEnabled": true,
+    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": true,
+    "FFlagAXAvatarFetchResultCamelCase": true,
+    "FFlagAccessoryAdjustmentEnabled3": true
+}
+```
+
+### Chrome FTUX (First Time User Experience)
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1271975274719875104)
+```json
+{
+    "FFlagDebugEnableVRFTUXExperienceInStudio": true,
+    "FFlagEnableChromeFTUX": true,
+    "FFlagEnableVRFTUXExperienceV2": true
 }
 ```
 
@@ -229,6 +259,14 @@ For Metal:
 }
 ```
 
+### Disable Haptics Toggle
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1268891182302494772)
+```json
+{
+    "FFlagAddHapticsToggle": false
+}
+```
+
 ### Disable Self View
 [Link To original Post](https://discord.com/channels/1099468797410283540/1183081644614226012)
 ```json
@@ -258,14 +296,6 @@ For Metal:
 ```json
 {
     "FFlagEnableChromePinnedChat": true
-}
-```
-
-### Return Old Voice Chat Bubble [WARNING: DISABLES AVATAR CHAT]
-[Link To Original Post](https://discord.com/channels/1099468797410283540/1139960093132210227)
-```json
-{
-    "DFFlagFacialAnimationStreaming2": false
 }
 ```
 
@@ -330,14 +360,11 @@ For Metal:
 
 # QOL (Quality Of Life)
 
-### Voice Chat Volume
-[Link To Original Post](https://discord.com/channels/1099468797410283540/1208100665138745424)
-> [!NOTE]
->
-> Default value is 1000 (in thousandths).
+### Disable VR Collision Fade
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1258459675314360493)
 ```json
 {
-    "DFIntVoiceChatVolumeThousandths": 1000
+  "FFlagViewCollisionFadeToBlackInVR": "False"
 }
 ```
 
@@ -376,7 +403,48 @@ For Metal:
 }
 ```
 
+# Voice Chat
+
+### Voice Chat Volume
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1208100665138745424)
+> [!NOTE]
+>
+> Default value is 1000 (in thousandths).
+```json
+{
+    "DFIntVoiceChatVolumeThousandths": 1000
+}
+```
+
+### Return Old Voice Chat Bubble [WARNING: DISABLES AVATAR CHAT]
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1139960093132210227)
+```json
+{
+    "DFFlagFacialAnimationStreaming2": false
+}
+```
+
 # Misc 
+
+### Enable New Camera Mode
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1237065400315805789)
+```json
+{
+    "FFlagNewCameraControls": true
+}
+```
+
+### Enable Audio Occlusion
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1239510612577620039)
+```json
+{
+    "FFlagDebugEnableDirectAudioOcclusion2": true
+}
+```
+
+### Make Your Flags Work On Certain Games Only
+[Link To Original Post](https://discord.com/channels/1099468797410283540/1239329199404355584)
+
 
 ### Sky's Flag Collection
 [Link To Original Post](https://discord.com/channels/1099468797410283540/1139962301991104582)
@@ -391,12 +459,5 @@ For Metal:
 }
 ```
 
-# Tutorials 
-
-### Make Your Own Custom Roblox Textures
-[Link To Original Post](https://discord.com/channels/1099468797410283540/1178672676416536657)
-
-[Link To Tutorial](https://discord.com/channels/1099468797410283540/1178672676416536657)
-
-### Custom Weapon Skins In Phantom Forces
-[Link To Original Post](https://discord.com/channels/1099468797410283540/1179092910252240966)
+### Notes
+> Roblox was supposed to kill fastflags like 6 months ago. Now here I am updating this collection again. Roblox really trolled me with this one.
